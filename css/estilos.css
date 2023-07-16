@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
 
 *{
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body{
+
+  border: 2px solid black;
+
 }
 
 main {
@@ -14,12 +21,15 @@ span,
 h1 {
   color: white;
   background-color: black;
+  margin: 0;
+  padding: 0.83em;
 }
 
 h2,
 p {
   color: black;
   background-color: white;
+  margin: 0;
 }
 
 span {
@@ -28,6 +38,7 @@ span {
 
 h2 {
   font-size: 197.33px; /*148pt 197.33px*/
+  
 }
 
 h1 {
@@ -52,4 +63,8 @@ p {
 
 span,#ultimo{
     display: block;
+}
+
+#span-top{
+  padding-top: 0.40em;
 }
